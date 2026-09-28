@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor</title>
+    <link rel="Stylesheet" href="Style.css">
+
+    <!-- google stylesheet for fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="./Image/trip.jpg" alt="trip-logo">
+
+        <div class="navbar__S2">
+            <div class="navbar__S2_Chat">
+                <p>🗨 Plan with Ai</p>
+            </div>
+            <div class="navbar__title">
+                <p>Discover</p>
+                <p>Review</p>
+                <p>More</p>
+                <i class="fa-notdog fa-solid fa-bars"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="navbar__Signin">
+                <p>Sign in</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="title">
+        <h1>Where to?</h1>
+    </div>
+
+    <div class="menu"> <input type="radio" name="menu" id="search" checked>
+        <label for="search">🏠︎ Search All</label>
+        <input type="radio" name="menu" id="things">
+        <label for="things">📸 Things to Do</label>
+        <input type="radio" name="menu" id="hotels">
+        <label for="hotels">🛌🏻 Hotels</label>
+        <input type="radio" name="menu" id="restaurants">
+        <label for="restaurants">🍽️ Restaurants</label>
+    </div>
+    <div class="search">
+        <div class="search__box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="Place to go,things to do.">
+        </div>
+        <div class="search__title">
+            <p class="search__title1">Ask Ai</p>
+            <p class="search__title2">Search</p>
+        </div>
+    </div>
+    <!-- <div class="place">
+        <div class="place__one">
+            <img src="./Image/popular1.jpg" alt="Image">
+        </div>
+        <div class="place__two">
+            <h1 class="place__two__s1"> Finds thinks do to for everything you're into</h1>
+            <p class="place__two__s2">browse 100000+ expience and book with us.</p>
+            <button class="place__two__s3">book now</button>
+
+
+        </div>
+    </div> -->
+
+    <div class="hero-banner">
+        <div class="banner-grid">
+
+            <!-- Left Column: Image & Badge -->
+            <div class="image-container">
+                <img src="./Image/bike1.jpg" alt="Image">
+                <div class="image-badge">teapottwins</div>
+            </div>
+
+            <!-- Vertical Divider (Visible on Desktop) -->
+            <div class="divider"></div>
+
+            <!-- Right Column: Text & CTA -->
+            <div class="content-container">
+                <h1 class="headline">Find things to do for everything you're into</h1>
+                <p class="subtitle">Browse 400,000+ experiences and book with us.</p>
+                <button class="cta-button" type="button">Book now</button>
+            </div>
+
+        </div>
+
+        <!-- Pause Control Button -->
+        <button class="pause-button" aria-label="Pause" type="button">
+            <div class="pause-icon">
+                <span class="pause-bar"></span>
+                <span class="pause-bar"></span>
+            </div>
+        </button>
+    </div>
+
+    <div class="popular">
+        <h3>Find things to do by interest</h3>
+        <p> Whatever you're into, we’ve got it</p>
+        <div class="popular__container">
+            <div class="course-card1">
+                <img src="./Image/popular1.jpg" alt="Image">
+                <h3>Outdoors</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/popular2.jpg" alt="Image">
+                <h3>Food</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/popular3.jpg" alt="Image">
+                <h3>Culture</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/popular4.jpg" alt="Image">
+                <h3>Water</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h3>Outdoor adventures in New Delhi</h3>
+        <p>Pick the bext fit</p>
+
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./Image/recommend1.jpg" alt="Image">
+                <h3>Wonderon</h3>
+                <p>2.9 🔵🔵🔵(1000)</p>
+                <p>Sightseeing</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/recommend2.jpg" alt="Image">
+                <h3>On his own trip</h3>
+                <p>3.9 🔵🔵🔵🔵(4567)</p>
+                <p>Hiking & Camping</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/recommend3.jpg" alt="Image">
+                <h3>Private driver india</h3>
+                <p>5 🔵🔵🔵🔵🔵(999)</p>
+                <p>Taxies & Shuttles</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/recommend4.jpg" alt="Image">
+                <h3>My club</h3>
+                <p>1.9 🔵🔵(8889)</p>
+                <p>Adrenaline & Extreme</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="recommended">
+        <h3 class="recommended__title">Business travel spots in New Delhi</h3>
+
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./Image/Bus1.jpg" alt="Image">
+                <h3>The latit</h3>
+                <p>2.9 🔵🔵🔵(1000)</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/Bus2.jpg" alt="Image">
+                <h3>Ibis</h3>
+                <p>3.9 🔵🔵🔵🔵(4567)</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/Bus3.jpg" alt="Image">
+                <h3>Tree hotel</h3>
+                <p>5 🔵🔵🔵🔵🔵(999)</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/Bus4.jpg" alt="Image">
+                <h3>Park</h3>
+                <p>1.9 🔵🔵(8889)</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h3 class="recommended__title">Fine dining in New Delhi</h3>
+
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./Image/fine1.jpg" alt="Image">
+                <h3>Gulati</h3>
+                <p>2.9 🔵🔵🔵(1000)</p>
+                <p>indian,asian</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/fine2.jpg" alt="Image">
+                <h3>Kiyan</h3>
+                <p>3.9 🔵🔵🔵🔵(4567)</p>
+                <p>Thai</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/fine3.jpg" alt="Image">
+                <h3>Tharambura</h3>
+                <p>5 🔵🔵🔵🔵🔵(999)</p>
+                <p>Street food</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/fine4.jpg" alt="Image">
+                <h3>Soronto</h3>
+                <p>1.9 🔵🔵(8889)</p>
+                <p>Italian</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h3 class="recommended__title">Explore experiences near Coimbatore</h3>
+        <p>Can’t-miss picks near you</p>
+
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./Image/kom1.jpg" alt="Image">
+                <h3>Coimbature to Ooty</h3>
+                <p>2.9 🔵🔵🔵(1000)</p>
+                <p>from 1500 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/kom2.jpg" alt="Image">
+                <h3>On his own trip</h3>
+                <p>3.9 🔵🔵🔵🔵(4567)</p>
+                <p>from 2000 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/kom3.jpg" alt="Image">
+                <h3>Adiyogi 3d light show</h3>
+                <p>5 🔵🔵🔵🔵🔵(999)</p>
+                <p>from 500 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/kom4.jpg" alt="Image">
+                <h3>Palani</h3>
+                <p>1.9 🔵🔵(8889)</p>
+                <p>from 3500 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h3 class="recommended__title">Inspiration to get you going</h3>
+
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./Image/in1.jpg" alt="Image">
+                <h3>6 Beaches</h3>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/in2.jpg" alt="Image">
+                <h3>Expensive cities</h3>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/in3.jpg" alt="Image">
+                <h3>8 top-tier street food</h3>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h3>Unforgettable bike tours across the globe</h3>
+        <p>Explore on two wheels</p>
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./Image/bike1.jpg" alt="Image">
+                <h3>Wonderon</h3>
+                <p>2.9 🔵🔵🔵(1000)</p>
+                <p>from 3500 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/bike2.jpg" alt="Image">
+                <h3>On his own trip</h3>
+                <p>3.9 🔵🔵🔵🔵(4567)</p>
+                <p>from 3000 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/bike3.jpg" alt="Image">
+                <h3>Private driver india</h3>
+                <p>5 🔵🔵🔵🔵🔵(999)</p>
+                <p>from 500 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+
+            <div class="course-card">
+                <img src="./Image/bike4.jpg" alt="Image">
+                <h3>My club</h3>
+                <p>1.9 🔵🔵(8889)</p>
+                <p>from 2500 per Adult</p>
+                <button><i class="fa-regular fa-heart"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="popular">
+        <h3>Your next trip is waiting</h3>
+        <p> Weekend getaways from Coimbatore</p>
+        <div class="popular__container">
+            <div class="course-card1">
+                <img src="./Image/next1.jpg" alt="Image">
+                <h3>Ooty, India</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/next2.jpg" alt="Image">
+                <h3>Madurai, India</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/next3.jpg" alt="Image">
+                <h3>Bengaluru, India</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/next4.jpg" alt="Image">
+                <h3>Mahabaliburam, India</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="popular">
+        <h3 class="popular__title">Iconic places you need to see</h3>
+        <div class="popular__container">
+            <div class="course-card1">
+                <img src="./Image/sav1.jpg" alt="Image">
+                <h3>Rome, Italy</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/sav2.jpg" alt="Image">
+                <h3>Paris, France</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/sav3.jpg" alt="Image">
+                <h3>Las Vegas, NV</h3>
+            </div>
+
+            <div class="course-card1">
+                <img src="./Image/sav4.jpg" alt="Image">
+                <h3>London, UK</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="footer__one">
+            <div class="footer__one__s1">
+                <p>Trip Bussines</p>
+                <p>Trip plan</p>
+                <p>Get the App</p>
+                <p>About us</p>
+                <p>Contuct us</p>
+            </div>
+            <div class="footer__one__s2">
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Help and Support</p>
+                <p>Affiiate</p>
+                <p>Investers</p>
+            </div>
+        </div>
+
+        <div class="footer__two">
+            <h1>Trip Advisor</h1>
+            <p>@copy: Trip, Inc</p>
+        </div>
+    </div>
+</body>
+
+</html>
